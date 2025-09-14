@@ -74,6 +74,61 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "v3s6-rqCO",
+      "uuid": "5291ea46-017a-401e-8727-ec5a5aca3685",
+      "firstName": "will",
+      "lastName": "test",
+      "username": "willian",
+      "password": "$2a$10$M7FoBrJCKFe1N1VZ4ZS0Q.IWFobkFHbyXT8JLywLIx2dU6fBXQ4jq",
+      "balance": 0,
+      "createdAt": "2025-09-14T19:28:44.959Z",
+      "modifiedAt": "2025-09-14T19:28:44.959Z"
+    },
+    {
+      "id": "3Ysi-i_CY",
+      "uuid": "692afd47-14e0-4c7f-a338-5ad462cf66ee",
+      "firstName": "Willian",
+      "lastName": "Aquino",
+      "username": "willian",
+      "password": "$2a$10$Z4iSgGwmHMOK6LGwv8E6OewcFYngD0JDV4f0W9mtWHntAxxlsKUPq",
+      "balance": 0,
+      "createdAt": "2025-09-14T19:47:07.385Z",
+      "modifiedAt": "2025-09-14T19:47:07.385Z"
+    },
+    {
+      "id": "syIOxa5pH",
+      "uuid": "e4e893d0-9d78-4b22-8e13-13df528e1379",
+      "firstName": "Mateus",
+      "lastName": "Narbona",
+      "username": "Wember",
+      "password": "$2a$10$r/LhmDI8nGVm3xPFsa.4G.ynF6frBtoCtnYNrjEBJ3idouwBW8S5m",
+      "balance": 0,
+      "createdAt": "2025-09-14T21:22:52.430Z",
+      "modifiedAt": "2025-09-14T21:22:52.430Z"
+    },
+    {
+      "id": "bOBXe9alq",
+      "uuid": "72bc011f-f49d-4750-b4ab-fbf113d63bc7",
+      "firstName": "Mateus",
+      "lastName": "Narbona",
+      "username": "Wember",
+      "password": "$2a$10$mfyNmJs48fjZnrN7wyVgDe9h.nrwr0Q6eSu92Z7DxQ890IkZpfYVu",
+      "balance": 0,
+      "createdAt": "2025-09-14T21:33:57.561Z",
+      "modifiedAt": "2025-09-14T21:33:57.561Z"
+    },
+    {
+      "id": "s5j-Y29mB",
+      "uuid": "6bfbc8dc-56e5-4832-8422-cd0078bc3f78",
+      "firstName": "Mateus",
+      "lastName": "Narbona",
+      "username": "Wember",
+      "password": "$2a$10$R/5iZe8b.IFsqXNM5fDgZe.muOwusn.CqPH8znPyrv8JIR1DmzzXK",
+      "balance": 0,
+      "createdAt": "2025-09-14T21:34:44.332Z",
+      "modifiedAt": "2025-09-14T21:34:44.332Z"
     }
   ],
   "contacts": [
