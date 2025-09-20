@@ -11,7 +11,7 @@ const seletores = {
   botaoSubmit: "[type='submit']",
   nomeUsuario: "[data-test='sidenav-user-full-name']",
   paginaLogin: 'Sign in',
-  paginaMenu: "[data-test='sidenav-user-full-name']"
+  paginaPrincipal: "[data-test='sidenav-home']",
 
 
 }
@@ -29,14 +29,15 @@ const seletores = {
     cy.get(seletores.username).click();
     cy.get(seletores.username).type('Wember');
     cy.get(seletores.password).click();
-    cy.get(seletores.password).type('888888888');
+    cy.get(seletores.password).type('123456789');
     cy.get(seletores.confirmPassword).click();
-    cy.get(seletores.confirmPassword).type('888888888');
+    cy.get(seletores.confirmPassword).type('123456789');
     cy.get(seletores.botaoSubmit).click();
     cy.contains(seletores.paginaLogin).should('be.visible');
     cy.get(seletores.username).type('Wember');
-    cy.get(seletores.password).type('888888888');
+    cy.get(seletores.password).type('123456789');
     cy.get(seletores.botaoSubmit).click();
-    cy.get(seletores.paginaMenu).should('be.visible');
+    cy.get(seletores.paginaPrincipal).should('be.visible');
+    cy.url().should('include', '/');
   });
 });
