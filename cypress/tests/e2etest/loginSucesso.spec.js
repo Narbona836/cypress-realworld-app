@@ -4,12 +4,7 @@ const seletores = {
   username: "[name='username']",
   password: "[name='password']",
   remenberMe: "[type='checkbox']",
-  botaoSubmit: "[type='submit']",
-  
- 
- 
-  
-  
+  botaoSubmit: "[type='submit']", 
 }
 
 

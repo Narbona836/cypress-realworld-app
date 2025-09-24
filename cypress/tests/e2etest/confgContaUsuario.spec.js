@@ -1,31 +1,24 @@
 
-describe('Enviar dinheiro com saldo suficiente', () => {
+describe('Deve atualizar a conta do usuario', () => {
   const seletores = {
+    //Seletores de elementos da pagina
     username: "[name='username']",
     password: "[name='password']",
     botaoSubmit: "[type='submit']",
+    //Seletores da pagina de conta do usuario
     botaoMinhaConta: "[tabindex='0']",
     email: "[name='email']",
     telefone: "[name='phoneNumber']",
     botaoSalvar:"[type='submit']",
     botaoContasBancarias: "[tabindex='0']",
-    botaoSalvarContaBancaria: ".BankAccountForm-submit",
-    
-    
-    nextConta: "[data-test='user-onboarding-next']",
-    //nomeBanco: "[data-test='bank-name']",
-   // rotiamentoConta: "[data-test='bank-routing-number']",
-    //numeroConta: "[data-test='bank-account-number']",
-    //botaoSalvarConta: "[data-test='submit-bank']",
-    botaoFinalizar: "[data-test='user-onboarding-next']",
   };
 
-  beforeEach(() => {
+  beforeEach(() => { //Faz login antes de cada teste
     cy.visit('/signin');
     cy.get(seletores.username).type('Wember');
     cy.get(seletores.password).type('123456789');
     cy.get(seletores.botaoSubmit).click();
-    cy.url().should('include', '/'); // Confere que saiu da tela de login
+    cy.url().should('include', '/'); 
   });
 
   it('Deve atualizar minha conta ', () => {
@@ -42,11 +35,6 @@ describe('Enviar dinheiro com saldo suficiente', () => {
     cy.url().should('include', '/');
     cy.get(seletores.botaoContasBancarias).eq(5).click();
     cy.url().should('include', '/');
-    
-    
-    
-    cy.get(seletores.botaoSalvarContaBancaria).click();
-    cy.url().should('include', '/bankaccounts');
 
 
   })

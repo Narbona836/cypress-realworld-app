@@ -1,6 +1,7 @@
 describe('Cadastro de novo Usuario', () => {
 
 const seletores = {
+  // Seletores da página de cadastro
   cadastro: "[href='/signup']",
   tituloCadastro: "[data-test='signup-title']",
   firstName: "[name='firstName']",
@@ -12,11 +13,7 @@ const seletores = {
   nomeUsuario: "[data-test='sidenav-user-full-name']",
   paginaLogin: 'Sign in',
   paginaPrincipal: "[data-test='sidenav-home']",
-
-
 }
-
-
 
   it('Deve Cadastrar novo Usuario com Sucesso', () => {
     cy.visit('/signin');
